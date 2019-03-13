@@ -1,0 +1,84 @@
+#=============================================================================
+# basic.toml --- basic configuration example for SpaceVim
+# Copyright (c) 2016-2017 Wang Shidong & Contributors
+# Author: Wang Shidong < wsdjeg at 163.com >
+# URL: https://spacevim.org
+# License: GPLv3
+#=============================================================================
+
+# All SpaceVim option below [option] section
+[options]
+   enable_guicolors = true
+   automatic_update = 1    
+   # install nerd fonts
+   statusline_separator = 'nil' #slant
+   statusline_inactive_separator = "bar"
+   buffer_index_type = 4
+   windows_index_type = 3
+   enable_tabline_filetype_icon = false 
+   enable_statusline_display_mode = false
+   statusline_unicode_symbols = true
+   guifont = "Dank Mono"
+   lint_on_the_fly = true
+   colorscheme = "nord"
+   colorscheme_bg = "dark"
+   filemanager = "nerdtree"
+
+# Enable autocomplete layer
+[[layers]]
+  name = 'autocomplete'
+  auto-completion-return-key-behavior = "smart"
+  auto-completion-tab-key-behavior = "smart"
+
+[[layers]]
+  name = "checkers"
+  show_cursor_error = true
+
+[[layers]]
+  name = "sudo"
+
+[[layers]]
+  name = "default"
+
+[[layers]]
+  name = "debug"
+
+[[layers]]
+  name = "edit"
+
+[[layers]]
+  name = "VersionControl"
+
+
+#[[layers]]
+#  name = "lsp"
+#  filetypes = [
+#  "c",
+#  "cpp",
+#  "dart",
+#  "html",
+#  "javascript",
+#  "typescript",
+#  "python",
+#  "sh",
+#  "php"
+#  ]
+#[[layers]]
+#  name = "lang#sh"
+
+#[[layers]]
+#  name = "lang#c"
+#  clang_executable = "/usr/bin/clang"
+#  clang_std
+#    c = "c90"
+#    cpp = "c++17"
+#    objc = "c11"
+#    objcpp = "c++1z"
+
+#[[layer]] 
+#  name = "lang#python"
+#  format-on-save = 1
+
+[[layers]]
+  name = "colorscheme"
+

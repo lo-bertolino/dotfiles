@@ -1,0 +1,6 @@
+[submodule ".oh-my-zsh"]
+	url = https://github.com/lo-bertolino/oh-my-zsh.git
+[submodule ".SpaceVim"]
+	url = https://github.com/SpaceVim/SpaceVim.git
+[submodule ".keyboard"]
+	url = https://github.com/lo-bertolino/keyboard.git
